@@ -3,7 +3,7 @@ name: GitHub Pages Deploy
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main  # or your default branc
 
 jobs:
   build-deploy:
