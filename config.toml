@@ -1,0 +1,26 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Modern Workplace Made Easy"
+theme = "PaperMod"
+
+[params]
+  description = "Beginner-friendly guides on Intune, SCCM, and modern workplace technologies"
+  defaultTheme = "auto"
+  showReadingTime = true
+  showShareButtons = true
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  search = true
+
+[menu]
+  [[menu.main]]
+    name = "Getting Started"; url = "/categories/getting-started/"; weight = 1
+  [[menu.main]]
+    name = "Guides & Tutorials"; url = "/categories/guides/"; weight = 2
+  [[menu.main]]
+    name = "Best Practices"; url = "/categories/best-practices/"; weight = 3
+  [[menu.main]]
+    name = "Troubleshooting"; url = "/categories/troubleshooting/"; weight = 4
+  [[menu.main]]
+    name = "Tool Comparisons"; url = "/categories/tool-comparisons/"; weight = 5
